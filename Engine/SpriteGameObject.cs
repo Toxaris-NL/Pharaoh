@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 namespace Pharaoh
 {
     /// <summary>
-    /// A game object with a sprite.
+    /// A class that can represent a game object with a sprite.
     /// </summary>
     public class SpriteGameObject : GameObject
     {
@@ -107,7 +107,6 @@ namespace Pharaoh
         /// </summary>
         public void SetOriginToCenter()
         {
-            //Origin = new Vector2(Width / 2.0f, Height / 2.0f);
             Origin = _sprite.Center;
         }
 

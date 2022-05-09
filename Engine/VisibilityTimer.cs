@@ -20,6 +20,10 @@ namespace Pharaoh
             _target = target;
         }
 
+        /// <summary>
+        /// Updates the  VisibilityTimer.
+        /// </summary>
+        /// <param name="target">An object containing information about the time that has passed in the game.</param>
         public override void Update(GameTime gameTime)
         {
             // if the timer has already passed earlier, don't do anything
