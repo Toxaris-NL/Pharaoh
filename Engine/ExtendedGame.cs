@@ -22,12 +22,12 @@ namespace Pharaoh
         protected Point _worldSize;
 
         /// <summary>
-        /// The width and height of the game world, in game units.
+        /// The width and height of the window, in pixels.
         /// </summary>
         protected Point _windowSize;
 
         /// <summary>
-        /// The width and height of the game world, in game units.
+        /// A matrix used for scaling the game world so that it fits inside the window.
         /// </summary>
         protected Matrix _spriteScale;
 

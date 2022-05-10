@@ -4,12 +4,8 @@ using Microsoft.Xna.Framework.Graphics;
 namespace Pharaoh
 {
     /// <summary>
-    /// Creates a new TextGameObject with the given details.
+    /// A game object that shows text (instead of an image).
     /// </summary>
-    /// <param name="fontName">The name of the font to use.</param>
-    /// <param name="depth">The depth at which the text should be drawn.</param>
-    /// <param name="color">The color with which the text should be drawn.</param>
-    /// <param name="alignment">The horizontal alignment to use.</param>
     public class TextGameObject : GameObject
     {
         /// <summary>
@@ -17,6 +13,9 @@ namespace Pharaoh
         /// </summary>
         public Color Color { get; set; }
 
+        /// <summary>
+        /// The font to use.
+        /// </summary>
         protected SpriteFont _font;
 
         /// <summary>
@@ -44,10 +43,9 @@ namespace Pharaoh
         protected Alignment _alignment;
 
         /// <summary>
-        /// Draws this TextGameObject on the screen.
+        /// Gets the x-coordinate to use as an origin for drawing the text.
+        /// This coordinate depends on the horizontal alignment and the width of the text.
         /// </summary>
-        /// <param name="gameTime">An object containing information about the time that has passed in the game.</param>
-        /// <param name="spriteBatch">A sprite batch object used for drawing sprites.</param>
         private float OriginX
         {
             get
