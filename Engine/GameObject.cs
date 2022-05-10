@@ -6,8 +6,7 @@ namespace Pharaoh
     public abstract class GameObject : IGameLoopObject
     {
         /// <summary>
-        /// A class that contains all game states of the game, and that makes sure
-        /// that the currently active game state updates and draws itself.
+        /// The position of this game object, relative to its parent in the game-object hierachy.
         /// </summary>
         public Vector2 LocalPosition
         {

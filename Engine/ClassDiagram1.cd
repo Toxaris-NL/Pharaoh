@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pharaoh.AssetManager">
+    <Position X="13.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAADAg=</HashCode>
+      <FileName>AssetManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.ExtendedGame">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQACQAAAAAgIAAIACAAAQAACCBAACAIAAAAIAAgQ=</HashCode>
+      <FileName>ExtendedGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.GameObject" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACCAAKABgAAAAAAQAAAAAABAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pharaoh.GameObjectList">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAACAAAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjectList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.GameState">
+    <Position X="15.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAABgAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pharaoh.GameStateManager">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAQAAABgAAAAACAAIQAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>GameStateManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pharaoh.InputHelper">
+    <Position X="11" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQBAAAAAAAAgAAAAAIAAABAAAAAAABAAAAAEhBCAAQ=</HashCode>
+      <FileName>InputHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.ParticleField">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAAAgAAAAQQAAAAQAAAQACAAAAAAAAAAAA=</HashCode>
+      <FileName>ParticleField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.SpriteGameObject">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABAAAQgAAAAAAAEAAACAgAAAAAAUAAAgAAAA=</HashCode>
+      <FileName>SpriteGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.SpriteSheet">
+    <Position X="18.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAAABAgAAgAAABAAAEAAgAAAAgIAAAVAABAIAgA=</HashCode>
+      <FileName>SpriteSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.TextGameObject">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Pharaoh.TextGameObject.Alignment" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TextGameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAACgAAAAAAAAAAAACAAQAAAAAAiAAAAAA=</HashCode>
+      <FileName>TextGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.VisibilityTimer">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisibilityTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.UI.Button">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>UI\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.UI.Slider">
+    <Position X="8.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACoAAAADCAAAAAAAEAAAEAEgAAAAAAoACAAAAA=</HashCode>
+      <FileName>UI\Slider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.UI.Switch">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAI=</HashCode>
+      <FileName>UI\Switch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.ExtendedGameWithLevels">
+    <Position X="1" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgAAAAgAgAgAAACAAAgAAADAEBAAAIAAAAAQAAI=</HashCode>
+      <FileName>Levels\ExtendedGameWithLevels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.UI.LevelButton">
+    <Position X="4.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAEAAAAAgAAABAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Levels\LevelButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.CollisionDetection">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>CollisionDetection\CollisionDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.AnimatedGameObject">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAABAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animation\AnimatedGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharaoh.Animation">
+    <Position X="17.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAAAAAAAAAAACAAgAAAAEAAQCA=</HashCode>
+      <FileName>Animation\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Pharaoh.Circle">
+    <Position X="13.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>CollisionDetection\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Pharaoh.IGameLoopObject">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGameLoopObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Pharaoh.IPlayingState">
+    <Position X="16.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\IPlayingState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Pharaoh.LevelStatus">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\LevelStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
