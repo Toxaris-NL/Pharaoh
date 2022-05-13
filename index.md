@@ -8,7 +8,7 @@ I like to program in my spare time, mostly things that I find enjoyable and of u
 Anyway, one of my favorite games on that machine was Fred. In itself quite simple, an explorer in a maze that has to escape. I still enjoy playing it every now and then. So, when I decided I wanted to learn how to code games, it was an obvious candidate. I choose the Monogame framework, which is quite a low-level framework. That would give me more opportunity to program. As most of my interest is in 2D or pseudo-3D anyway, it seems like a good fit.
 As it is a low-level framework, quite some stuff needs to be handled by yourself every time. I don't like to do things multiple times, so I started to collect these things as an engine to power my games.
 
-###
+### What it can do
 
 It has some basic capabilities, which will be added upon when needed. It probably is not the best way forward all the times, but it works for me.
 
@@ -27,4 +27,7 @@ Upcoming capabilities:
 - Camera
 - Layers
 
+### Documentation
+
+The class documentation can be found here.
 
